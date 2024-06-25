@@ -7,6 +7,20 @@ These are the sources I used to help write my code: scikit-learn.org, google, an
 The purpose of this analysis is to evaluate the performance of a logistic regression model in predicting credit risk. Specifically, it is aim to determine how accurately the model can classify loans as either healthy `0` or high-risk `1`. 
 This analysis is critical for financial institutions seeking to minimize default rates and manage credit risk effectively.
 
+#### Stages of the Machine Learning Process
+1. ##### Import Necessary Libraries
+2. ##### Load the Data
+3. ##### Create the Labels and Features
+      * Separate the data into labels (y) and features (X).
+4. ##### Split the Data into Training and Testing Sets
+      * Split the data into training and testing datasets using `train_test_split`.
+5. ##### Train the Logistic Regression Model
+      * Fit a logistic regression model using the training data.
+6. ##### Make Predictions
+      * Use the trained model to make predictions on the testing data.
+7. ##### Evaluate the Model
+      * Generate the confusion matrix and print the classification report.
+
 ### The Results
 #### Machine Learning Model: Logistic Regression
 * Accuracy Score: 0.99
