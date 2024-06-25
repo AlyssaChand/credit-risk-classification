@@ -8,12 +8,15 @@ The purpose of this analysis is to evaluate the performance of a logistic regres
 This analysis is critical for financial institutions seeking to minimize default rates and manage credit risk effectively.
 
 ### The Results
+#### Machine Learning Model: Logistic Regression
 * Accuracy Score: 0.99
-* Precision Score for Healthy Loans `0`: 1.00
-* Precision Score for High-Risk Loans `1`: 0.85
-* Recall Score for Healthy Loans `0`: 0.99
-* Recall Score for High-Risk Loans `1`: 0.91
-* F1-Score for Healthy Loans `0`: 1.00
-* F1-Score for High-Risk Loans `1`: 0.88
-
+* Precision Score:
+    * Healthy Loans `0`: 1.00
+    * High-Risk Loans `1`: 0.85
+* Recall Score:
+    * Healthy Loans `0`: 0.99
+    * High-Risk Loans `1`: 0.91
+* F1-Score:
+    * Healthy Loans `0`: 1.00
+    * High-Risk Loans `1`: 0.88
 ### Summary
